@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 import "./App.css";
 
 function App() {
-  console.log("App component is rendering");
+  //console.log("App component is rendering");
   return (
     <div className="App">
      

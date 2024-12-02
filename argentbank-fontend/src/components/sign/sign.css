@@ -20,6 +20,7 @@
   }
   .fa-user-circle {
     margin-right: 5px;
+   
   }
   .fa-user-circle::before {
     content: "\f2bd";
