@@ -1,8 +1,8 @@
 // src/pages/SignIn.js
 import From from "../../containers/Form/form";
-import "./SignIn.css";
+import "./login.css";
 
-const SignIn = () => {
+const Login = () => {
   return (
     <div className="div">
       <main className="main bg-dark">
@@ -16,4 +16,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Login;

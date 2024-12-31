@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { body } from "../../helpers/features/userSlice";
 import "./userEdit.css";
 
-const EditUser = ({ closeModal }) => {
+const UserEdit = ({ closeModal }) => {
   // Extraction des informations utilisateur depuis le store Redux
   const infos = useSelector(body);
 
@@ -93,4 +93,4 @@ const EditUser = ({ closeModal }) => {
   );
 };
 
-export default EditUser;
+export default UserEdit;

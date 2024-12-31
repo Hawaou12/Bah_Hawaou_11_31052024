@@ -38,7 +38,7 @@ const Sing = () => {
   ) : (
     <div className="logout">
       {/* Lien vers le profil utilisateur */}
-      <Link className="nameUser" to="/profile">
+      <Link className="NameUser" to="/profile">
         <i className="fa fa-user-circle"></i>
         <p className="user name">{userName}</p>
       </Link>

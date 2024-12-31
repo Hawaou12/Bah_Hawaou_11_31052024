@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home/Home"; 
-import Login from "../../pages/SignIn/SignIn"; 
+import Login from "../../pages/login/login"; 
 import NotFound from "../NotFound/notFound"; 
 import User from "../../pages/User/User"; 
 import { useSelector } from "react-redux";

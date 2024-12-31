@@ -1,6 +1,6 @@
 // src/pages/User.js
 import Account from "../../components/accounts/account";
-import UserName from "../../containers/UserName/userName"
+import NameUser from "../../containers/NameUser/NameUser";
 import "./user.css";
 const accounts = [
  {
@@ -26,7 +26,7 @@ const User = () => {
  return (
    <div className="div">
    <main className="main bg-dark">
-<UserName/>
+<NameUser/>
 {accounts.map(account=>( 
 <Account title={account.title} amount={account.amount} description={account.description} key={account.id}/>))}
    </main>
