@@ -41,6 +41,7 @@ const From = () => {
     });
 
     result = await result.json();
+    console.log(result)
 
     // Si la connexion est réussie
     if (result.status === 200) {
