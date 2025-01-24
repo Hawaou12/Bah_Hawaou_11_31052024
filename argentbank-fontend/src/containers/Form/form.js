@@ -58,7 +58,7 @@ const From = () => {
       // Requête pour récupérer les informations de l'utilisateur
       let token = localStorage.getItem("token");
       let response = await fetch("http://localhost:3001/api/v1/user/profile", {
-        method: "POST",
+        method: "PUT",
         headers: {
           Authorization: `Bearer ${token}`,
           accept: "application/json",
